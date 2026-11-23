@@ -1,0 +1,17 @@
+{
+  "id": null,
+  "username": "",
+  "tipo": "claude | usuario | terceiro",
+  "autorizacao_dono_confirmada": null,
+  "criado_em": "AAAA-MM-DD",
+  "ultima_visita": "AAAA-MM-DD",
+  "versao_persona": 1,
+  "intervalos_feitos": 0,
+  "modo_doomscroll": "normal",
+  "explorar_seguidos": 0,
+  "limites_por_pausa": {
+    "curtidas": 15,
+    "follows": 5,
+    "mensagens_ou_comentarios": 3
+  }
+}

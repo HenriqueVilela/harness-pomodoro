@@ -1,0 +1,23 @@
+{
+  "_sobre": "Skills de intervalo. tempo_minimo_min: tempo sem relaxar para a skill poder ser sorteada. tempo_ideal_min: tempo sem relaxar em que ela é mais indicada. frequencia_alvo: fatia desejada dos intervalos (soma ~1).",
+  "janela_frequencia": 20,
+  "padrao_quando_cedo": "instagram-doomscroll",
+  "skills": [
+    {
+      "skill": "instagram-doomscroll",
+      "descricao": "Rolar 5-15 Reels",
+      "tempo_minimo_min": 5,
+      "tempo_ideal_min": 25,
+      "frequencia_alvo": 0.65,
+      "duracao_min": 5
+    },
+    {
+      "skill": "instagram-pausa",
+      "descricao": "Olhar o feed com calma",
+      "tempo_minimo_min": 45,
+      "tempo_ideal_min": 90,
+      "frequencia_alvo": 0.35,
+      "duracao_min": 10
+    }
+  ]
+}

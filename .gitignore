@@ -1,0 +1,27 @@
+# --- Memória das personas -------------------------------------------------
+# Cada pasta perfis/<id>/ guarda persona, gostos, conexões, diário e
+# permissões da sessão de uma conta real. Fica só na máquina local.
+perfis/*
+!perfis/_modelo/
+!perfis/_modelo/**
+
+# Mapa username/ID -> pasta (identifica contas reais)
+perfis/index.json
+
+# Arquivos de sessão/memória, onde quer que apareçam
+**/sessao.json
+**/memoria.md
+# ...exceto os modelos vazios
+!perfis/_modelo/memoria.md
+
+# --- Sessões de intervalo -------------------------------------------------
+# Último intervalo e histórico de sorteios
+intervalo/estado.json
+
+# --- Claude Code: configurações e dados locais ----------------------------
+.claude/settings.local.json
+.claude/*.local.*
+
+# --- Sistema --------------------------------------------------------------
+Thumbs.db
+.DS_Store
